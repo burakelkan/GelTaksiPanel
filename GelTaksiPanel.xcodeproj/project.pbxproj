@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1947902806FB1500108CD7 /* ViewControllerNewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19478F2806FB1500108CD7 /* ViewControllerNewAccount.swift */; };
+		9F315A9228062EBC00554C93 /* ViewControllerMapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F315A9128062EBC00554C93 /* ViewControllerMapKit.swift */; };
+		9F315A95280643BE00554C93 /* ViewControllerProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F315A94280643BE00554C93 /* ViewControllerProfil.swift */; };
+		9F315A9F2806819C00554C93 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F315A9E2806819C00554C93 /* ViewControllerHome.swift */; };
+		9F315AA3280687AB00554C93 /* ViewControllerEditProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F315AA2280687AB00554C93 /* ViewControllerEditProfil.swift */; };
+		9F315AA628068C2400554C93 /* ViewControllerGelTaksiDestek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F315AA528068C2400554C93 /* ViewControllerGelTaksiDestek.swift */; };
+		9F6BC28C2805ACA200E2CF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BC28B2805ACA200E2CF88 /* AppDelegate.swift */; };
+		9F6BC28E2805ACA200E2CF88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BC28D2805ACA200E2CF88 /* SceneDelegate.swift */; };
+		9F6BC2902805ACA200E2CF88 /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BC28F2805ACA200E2CF88 /* ViewControllerLogin.swift */; };
+		9F6BC2932805ACA200E2CF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6BC2912805ACA200E2CF88 /* Main.storyboard */; };
+		9F6BC2962805ACA200E2CF88 /* GelTaksiMusteri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BC2942805ACA200E2CF88 /* GelTaksiMusteri.xcdatamodeld */; };
+		9F6BC2982805ACAA00E2CF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6BC2972805ACAA00E2CF88 /* Assets.xcassets */; };
+		9F6BC29B2805ACAA00E2CF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6BC2992805ACAA00E2CF88 /* LaunchScreen.storyboard */; };
+		9F6BC2A62805ACAA00E2CF88 /* GelTaksiMusteriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BC2A52805ACAA00E2CF88 /* GelTaksiMusteriTests.swift */; };
+		9F6BC2B02805ACAA00E2CF88 /* GelTaksiMusteriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BC2AF2805ACAA00E2CF88 /* GelTaksiMusteriUITests.swift */; };
+		9F6BC2B22805ACAA00E2CF88 /* GelTaksiMusteriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BC2B12805ACAA00E2CF88 /* GelTaksiMusteriUITestsLaunchTests.swift */; };
+		9FA8340E2806087D001DB12D /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8340D2806087D001DB12D /* CustomTabBarVC.swift */; };
+		9FA8340F2806087D001DB12D /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8340D2806087D001DB12D /* CustomTabBarVC.swift */; };
+		9FA8341128060888001DB12D /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8341028060888001DB12D /* TabBarVC.swift */; };
+		9FA8341228060888001DB12D /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8341028060888001DB12D /* TabBarVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F6BC2A22805ACAA00E2CF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6BC2802805ACA200E2CF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6BC2872805ACA200E2CF88;
+			remoteInfo = GelTaksiMusteri;
+		};
+		9F6BC2AC2805ACAA00E2CF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6BC2802805ACA200E2CF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F6BC2872805ACA200E2CF88;
+			remoteInfo = GelTaksiMusteri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F19478F2806FB1500108CD7 /* ViewControllerNewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNewAccount.swift; sourceTree = "<group>"; };
+		9F315A9128062EBC00554C93 /* ViewControllerMapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMapKit.swift; sourceTree = "<group>"; };
+		9F315A94280643BE00554C93 /* ViewControllerProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProfil.swift; sourceTree = "<group>"; };
+		9F315A9E2806819C00554C93 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
+		9F315AA2280687AB00554C93 /* ViewControllerEditProfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEditProfil.swift; sourceTree = "<group>"; };
+		9F315AA528068C2400554C93 /* ViewControllerGelTaksiDestek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGelTaksiDestek.swift; sourceTree = "<group>"; };
+		9F6BC2882805ACA200E2CF88 /* GelTaksiPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GelTaksiPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6BC28B2805ACA200E2CF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F6BC28D2805ACA200E2CF88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F6BC28F2805ACA200E2CF88 /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		9F6BC2922805ACA200E2CF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F6BC2952805ACA200E2CF88 /* GelTaksiMusteri.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GelTaksiMusteri.xcdatamodel; sourceTree = "<group>"; };
+		9F6BC2972805ACAA00E2CF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F6BC29A2805ACAA00E2CF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F6BC29C2805ACAA00E2CF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6BC2A12805ACAA00E2CF88 /* GelTaksiPanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GelTaksiPanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6BC2A52805ACAA00E2CF88 /* GelTaksiMusteriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelTaksiMusteriTests.swift; sourceTree = "<group>"; };
+		9F6BC2AB2805ACAA00E2CF88 /* GelTaksiPanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GelTaksiPanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6BC2AF2805ACAA00E2CF88 /* GelTaksiMusteriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelTaksiMusteriUITests.swift; sourceTree = "<group>"; };
+		9F6BC2B12805ACAA00E2CF88 /* GelTaksiMusteriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelTaksiMusteriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FA8340D2806087D001DB12D /* CustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		9FA8341028060888001DB12D /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F6BC2852805ACA200E2CF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BC29E2805ACAA00E2CF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BC2A82805ACAA00E2CF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F19478E2806FAF200108CD7 /* YeniKullanıcı */ = {
+			isa = PBXGroup;
+			children = (
+				9F19478F2806FB1500108CD7 /* ViewControllerNewAccount.swift */,
+			);
+			path = "YeniKullanıcı";
+			sourceTree = "<group>";
+		};
+		9F315A9028062E9F00554C93 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				9F315A9128062EBC00554C93 /* ViewControllerMapKit.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		9F315A9628067EFE00554C93 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9FA8340D2806087D001DB12D /* CustomTabBarVC.swift */,
+				9FA8341028060888001DB12D /* TabBarVC.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		9F315A9728067F5600554C93 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BC28F2805ACA200E2CF88 /* ViewControllerLogin.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9F315A9D2806818B00554C93 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9F315A9E2806819C00554C93 /* ViewControllerHome.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9F315AA02806876800554C93 /* ProfiliDüzenle */ = {
+			isa = PBXGroup;
+			children = (
+				9F315AA2280687AB00554C93 /* ViewControllerEditProfil.swift */,
+			);
+			name = "ProfiliDüzenle";
+			path = "ProfiliDüzenle";
+			sourceTree = "<group>";
+		};
+		9F315AA12806878A00554C93 /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				9F315A94280643BE00554C93 /* ViewControllerProfil.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
+		9F315AA428068C0500554C93 /* GelTaksiDestek */ = {
+			isa = PBXGroup;
+			children = (
+				9F315AA528068C2400554C93 /* ViewControllerGelTaksiDestek.swift */,
+			);
+			path = GelTaksiDestek;
+			sourceTree = "<group>";
+		};
+		9F6BC27F2805ACA200E2CF88 = {
+			isa = PBXGroup;
+			children = (
+				9F6BC28A2805ACA200E2CF88 /* GelTaksiMusteri */,
+				9F6BC2A42805ACAA00E2CF88 /* GelTaksiMusteriTests */,
+				9F6BC2AE2805ACAA00E2CF88 /* GelTaksiMusteriUITests */,
+				9F6BC2892805ACA200E2CF88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F6BC2892805ACA200E2CF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BC2882805ACA200E2CF88 /* GelTaksiPanel.app */,
+				9F6BC2A12805ACAA00E2CF88 /* GelTaksiPanelTests.xctest */,
+				9F6BC2AB2805ACAA00E2CF88 /* GelTaksiPanelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F6BC28A2805ACA200E2CF88 /* GelTaksiMusteri */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BC28B2805ACA200E2CF88 /* AppDelegate.swift */,
+				9F6BC28D2805ACA200E2CF88 /* SceneDelegate.swift */,
+				9F6BC2912805ACA200E2CF88 /* Main.storyboard */,
+				9F6BC2972805ACAA00E2CF88 /* Assets.xcassets */,
+				9F6BC2992805ACAA00E2CF88 /* LaunchScreen.storyboard */,
+				9F6BC2942805ACA200E2CF88 /* GelTaksiMusteri.xcdatamodeld */,
+				9F6BC29C2805ACAA00E2CF88 /* Info.plist */,
+				9F315A9628067EFE00554C93 /* TabBar */,
+				9F315AA428068C0500554C93 /* GelTaksiDestek */,
+				9F315A9D2806818B00554C93 /* Home */,
+				9F315A9728067F5600554C93 /* Login */,
+				9F315A9028062E9F00554C93 /* MapKit */,
+				9F315AA12806878A00554C93 /* Profil */,
+				9F315AA02806876800554C93 /* ProfiliDüzenle */,
+				9F19478E2806FAF200108CD7 /* YeniKullanıcı */,
+			);
+			path = GelTaksiMusteri;
+			sourceTree = "<group>";
+		};
+		9F6BC2A42805ACAA00E2CF88 /* GelTaksiMusteriTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BC2A52805ACAA00E2CF88 /* GelTaksiMusteriTests.swift */,
+			);
+			path = GelTaksiMusteriTests;
+			sourceTree = "<group>";
+		};
+		9F6BC2AE2805ACAA00E2CF88 /* GelTaksiMusteriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BC2AF2805ACAA00E2CF88 /* GelTaksiMusteriUITests.swift */,
+				9F6BC2B12805ACAA00E2CF88 /* GelTaksiMusteriUITestsLaunchTests.swift */,
+			);
+			path = GelTaksiMusteriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F6BC2872805ACA200E2CF88 /* GelTaksiPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6BC2B52805ACAA00E2CF88 /* Build configuration list for PBXNativeTarget "GelTaksiPanel" */;
+			buildPhases = (
+				9F6BC2842805ACA200E2CF88 /* Sources */,
+				9F6BC2852805ACA200E2CF88 /* Frameworks */,
+				9F6BC2862805ACA200E2CF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GelTaksiPanel;
+			productName = GelTaksiMusteri;
+			productReference = 9F6BC2882805ACA200E2CF88 /* GelTaksiPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F6BC2A02805ACAA00E2CF88 /* GelTaksiPanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6BC2B82805ACAA00E2CF88 /* Build configuration list for PBXNativeTarget "GelTaksiPanelTests" */;
+			buildPhases = (
+				9F6BC29D2805ACAA00E2CF88 /* Sources */,
+				9F6BC29E2805ACAA00E2CF88 /* Frameworks */,
+				9F6BC29F2805ACAA00E2CF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6BC2A32805ACAA00E2CF88 /* PBXTargetDependency */,
+			);
+			name = GelTaksiPanelTests;
+			productName = GelTaksiMusteriTests;
+			productReference = 9F6BC2A12805ACAA00E2CF88 /* GelTaksiPanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F6BC2AA2805ACAA00E2CF88 /* GelTaksiPanelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6BC2BB2805ACAA00E2CF88 /* Build configuration list for PBXNativeTarget "GelTaksiPanelUITests" */;
+			buildPhases = (
+				9F6BC2A72805ACAA00E2CF88 /* Sources */,
+				9F6BC2A82805ACAA00E2CF88 /* Frameworks */,
+				9F6BC2A92805ACAA00E2CF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6BC2AD2805ACAA00E2CF88 /* PBXTargetDependency */,
+			);
+			name = GelTaksiPanelUITests;
+			productName = GelTaksiMusteriUITests;
+			productReference = 9F6BC2AB2805ACAA00E2CF88 /* GelTaksiPanelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F6BC2802805ACA200E2CF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9F6BC2872805ACA200E2CF88 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					9F6BC2A02805ACAA00E2CF88 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 9F6BC2872805ACA200E2CF88;
+					};
+					9F6BC2AA2805ACAA00E2CF88 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 9F6BC2872805ACA200E2CF88;
+					};
+				};
+			};
+			buildConfigurationList = 9F6BC2832805ACA200E2CF88 /* Build configuration list for PBXProject "GelTaksiPanel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F6BC27F2805ACA200E2CF88;
+			productRefGroup = 9F6BC2892805ACA200E2CF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F6BC2872805ACA200E2CF88 /* GelTaksiPanel */,
+				9F6BC2A02805ACAA00E2CF88 /* GelTaksiPanelTests */,
+				9F6BC2AA2805ACAA00E2CF88 /* GelTaksiPanelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F6BC2862805ACA200E2CF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6BC29B2805ACAA00E2CF88 /* LaunchScreen.storyboard in Resources */,
+				9F6BC2982805ACAA00E2CF88 /* Assets.xcassets in Resources */,
+				9F6BC2932805ACA200E2CF88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BC29F2805ACAA00E2CF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BC2A92805ACAA00E2CF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F6BC2842805ACA200E2CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F315AA628068C2400554C93 /* ViewControllerGelTaksiDestek.swift in Sources */,
+				9F315A95280643BE00554C93 /* ViewControllerProfil.swift in Sources */,
+				9F315A9228062EBC00554C93 /* ViewControllerMapKit.swift in Sources */,
+				9F315AA3280687AB00554C93 /* ViewControllerEditProfil.swift in Sources */,
+				9FA8340E2806087D001DB12D /* CustomTabBarVC.swift in Sources */,
+				9F6BC2902805ACA200E2CF88 /* ViewControllerLogin.swift in Sources */,
+				9F6BC2962805ACA200E2CF88 /* GelTaksiMusteri.xcdatamodeld in Sources */,
+				9F1947902806FB1500108CD7 /* ViewControllerNewAccount.swift in Sources */,
+				9F6BC28C2805ACA200E2CF88 /* AppDelegate.swift in Sources */,
+				9FA8341128060888001DB12D /* TabBarVC.swift in Sources */,
+				9F6BC28E2805ACA200E2CF88 /* SceneDelegate.swift in Sources */,
+				9F315A9F2806819C00554C93 /* ViewControllerHome.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BC29D2805ACAA00E2CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6BC2A62805ACAA00E2CF88 /* GelTaksiMusteriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BC2A72805ACAA00E2CF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA8340F2806087D001DB12D /* CustomTabBarVC.swift in Sources */,
+				9F6BC2B22805ACAA00E2CF88 /* GelTaksiMusteriUITestsLaunchTests.swift in Sources */,
+				9FA8341228060888001DB12D /* TabBarVC.swift in Sources */,
+				9F6BC2B02805ACAA00E2CF88 /* GelTaksiMusteriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F6BC2A32805ACAA00E2CF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6BC2872805ACA200E2CF88 /* GelTaksiPanel */;
+			targetProxy = 9F6BC2A22805ACAA00E2CF88 /* PBXContainerItemProxy */;
+		};
+		9F6BC2AD2805ACAA00E2CF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F6BC2872805ACA200E2CF88 /* GelTaksiPanel */;
+			targetProxy = 9F6BC2AC2805ACAA00E2CF88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F6BC2912805ACA200E2CF88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F6BC2922805ACA200E2CF88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F6BC2992805ACAA00E2CF88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F6BC29A2805ACAA00E2CF88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F6BC2B32805ACAA00E2CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F6BC2B42805ACAA00E2CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F6BC2B62805ACAA00E2CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GelTaksiMusteri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.GelTaksiMusteri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F6BC2B72805ACAA00E2CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GelTaksiMusteri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.GelTaksiMusteri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F6BC2B92805ACAA00E2CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.GelTaksiMusteriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GelTaksiPanel.app/GelTaksiPanel";
+			};
+			name = Debug;
+		};
+		9F6BC2BA2805ACAA00E2CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.GelTaksiMusteriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GelTaksiPanel.app/GelTaksiPanel";
+			};
+			name = Release;
+		};
+		9F6BC2BC2805ACAA00E2CF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.GelTaksiMusteriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GelTaksiMusteri;
+			};
+			name = Debug;
+		};
+		9F6BC2BD2805ACAA00E2CF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37726QARMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.GelTaksiMusteriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GelTaksiMusteri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F6BC2832805ACA200E2CF88 /* Build configuration list for PBXProject "GelTaksiPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6BC2B32805ACAA00E2CF88 /* Debug */,
+				9F6BC2B42805ACAA00E2CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6BC2B52805ACAA00E2CF88 /* Build configuration list for PBXNativeTarget "GelTaksiPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6BC2B62805ACAA00E2CF88 /* Debug */,
+				9F6BC2B72805ACAA00E2CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6BC2B82805ACAA00E2CF88 /* Build configuration list for PBXNativeTarget "GelTaksiPanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6BC2B92805ACAA00E2CF88 /* Debug */,
+				9F6BC2BA2805ACAA00E2CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6BC2BB2805ACAA00E2CF88 /* Build configuration list for PBXNativeTarget "GelTaksiPanelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6BC2BC2805ACAA00E2CF88 /* Debug */,
+				9F6BC2BD2805ACAA00E2CF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F6BC2942805ACA200E2CF88 /* GelTaksiMusteri.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F6BC2952805ACA200E2CF88 /* GelTaksiMusteri.xcdatamodel */,
+			);
+			currentVersion = 9F6BC2952805ACA200E2CF88 /* GelTaksiMusteri.xcdatamodel */;
+			path = GelTaksiMusteri.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F6BC2802805ACA200E2CF88 /* Project object */;
+}
